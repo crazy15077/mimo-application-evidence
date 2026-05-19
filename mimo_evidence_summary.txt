@@ -1,0 +1,26 @@
+MIMO APPLICATION EVIDENCE SUMMARY
+
+Applicant workflow proof (AI-assisted automation):
+- Orchestration tool: Hermes Agent
+- Coding assistants: Claude Code, Cursor
+- Model families used: Claude series, GPT series
+
+Execution evidence captured:
+1) Browser automation run (headed mode) reached form page.
+2) Form fields were successfully filled:
+   - Email
+   - Tool selections
+   - Model selections
+   - 100+ word project description
+   - GitHub/demo URL field
+3) Submit button was clicked and post-submit state captured.
+
+Attached screenshot files:
+- mimo_headed_landing.png
+- mimo_headed_after_apply.png
+- mimo_headed_filled.png
+- mimo_headed_post_submit.png
+
+Notes:
+- These files are operational proof of real workflow execution for AI-agent-driven setup/submission flow.
+- No private credentials are included in this summary.
