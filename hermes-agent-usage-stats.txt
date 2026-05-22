@@ -1,0 +1,179 @@
+=== Hermes Evidence Capture ===
+Captured (UTC): 2026-05-22 11:08:11
+
+## 1) Active Cron Jobs
+
+┌─────────────────────────────────────────────────────────────────────────┐
+│                         Scheduled Jobs                                  │
+└─────────────────────────────────────────────────────────────────────────┘
+
+  6b5fd51eab45 [active]
+    Name:      polymarket-monitor
+    Schedule:  every 360m
+    Repeat:    ∞
+    Next run:  2026-05-22T14:33:31.765973+00:00
+    Deliver:   telegram:-1003760173126:6
+    Last run:  2026-05-22T08:33:31.765973+00:00  ok
+
+  0df90e4230c9 [active]
+    Name:      9router-health
+    Schedule:  every 60m
+    Repeat:    ∞
+    Next run:  2026-05-22T11:16:34.841729+00:00
+    Deliver:   telegram:-1003760173126:5
+    Last run:  2026-05-22T10:16:34.841729+00:00  ok
+
+  ef222f4c58c5 [active]
+    Name:      disk-usage-monitor
+    Schedule:  every 720m
+    Repeat:    ∞
+    Next run:  2026-05-22T20:15:16.874219+00:00
+    Deliver:   telegram:-1003760173126:4
+
+  a5fffe7b8eec [active]
+    Name:      backup-verify
+    Schedule:  0 7 * * *
+    Repeat:    ∞
+    Next run:  2026-05-23T07:00:00+00:00
+    Deliver:   telegram:-1003760173126:7
+
+  66aa24bc2e9a [active]
+    Name:      polymarket-daily-pnl
+    Schedule:  0 8 * * *
+    Repeat:    ∞
+    Next run:  2026-05-23T08:00:00+00:00
+    Deliver:   telegram:-1003760173126:6
+
+  a3848d944ad3 [active]
+    Name:      ssh-brute-force-monitor
+    Schedule:  every 360m
+    Repeat:    ∞
+    Next run:  2026-05-22T14:15:19.898100+00:00
+    Deliver:   telegram:-1003760173126:4
+
+  9c02b6d03449 [active]
+    Name:      services-watchdog
+    Schedule:  every 180m
+    Repeat:    ∞
+    Next run:  2026-05-22T11:33:11.344766+00:00
+    Deliver:   telegram:-1003760173126:4
+    Last run:  2026-05-22T08:33:11.344766+00:00  ok
+
+  e1f6f95a0eb9 [active]
+    Name:      depinzcash-sync-monitor
+    Schedule:  every 10m
+    Repeat:    ∞
+    Next run:  2026-05-22T11:13:18.423002+00:00
+    Deliver:   telegram:IR TEMPEST / topic 1
+    Script:    depinzcash-monitor.sh
+    Last run:  2026-05-22T11:03:18.423002+00:00  ok
+
+
+## 2) Recent Sessions (limit 10)
+Title                            Preview                                  Last Active   ID
+──────────────────────────────────────────────────────────────────────────────────────────────────────────────
+—                                [IMPORTANT: You are running as a sched   4m ago        cron_e1f6f95a0eb9_20260522_110312
+Analisa Form Apply 100T MiMo G   Coba kamu ulik dan analisa  Web https:   1m ago        20260522_110112_032c18e7
+—                                [IMPORTANT: You are running as a sched   15m ago       cron_e1f6f95a0eb9_20260522_105259
+—                                [IMPORTANT: You are running as a sched   25m ago       cron_e1f6f95a0eb9_20260522_104251
+—                                [IMPORTANT: You are running as a sched   35m ago       cron_e1f6f95a0eb9_20260522_103243
+—                                [IMPORTANT: You are running as a sched   45m ago       cron_e1f6f95a0eb9_20260522_102235
+—                                [IMPORTANT: You are running as a sched   51m ago       cron_0df90e4230c9_20260522_101620
+—                                [IMPORTANT: You are running as a sched   55m ago       cron_e1f6f95a0eb9_20260522_101209
+—                                [IMPORTANT: You are running as a sched   1h ago        cron_e1f6f95a0eb9_20260522_100201
+Fungsi Tool Menu Telegram Bot    Kasih aku tau dong fungsi fungsi tool    10m ago       20260522_095452_961418a0
+
+## 3) Usage Summary (7 days)
+
+  ╔══════════════════════════════════════════════════════════╗
+  ║                    📊 Hermes Insights                    ║
+  ║                       Last 7 days                        ║
+  ╚══════════════════════════════════════════════════════════╝
+
+  Period: May 18, 2026 — May 22, 2026
+
+  📋 Overview
+  ────────────────────────────────────────────────────────
+  Sessions:          101           Messages:        10,165
+  Tool calls:        4,280         User messages:   941
+  Input tokens:      38,167,788    Output tokens:   332,099
+  Total tokens:      76,933,679
+  Active time:       ~3.7d         Avg session:     ~1h 16m
+  Avg msgs/session:  100.6
+
+  🤖 Models Used
+  ────────────────────────────────────────────────────────
+  Model                          Sessions       Tokens
+  auto                                 63   37,896,019
+  gpt-4o-mini                           7   16,570,075
+  gpt-5.3-codex                        24   15,638,278
+  gpt-5.5                               4    6,829,307
+  gpt-5-mini                            3            0
+
+  📱 Platforms
+  ────────────────────────────────────────────────────────
+  Platform       Sessions   Messages         Tokens
+  telegram             72     10,077     76,778,879
+  cli                  16         23        100,907
+  cron                 13         65         53,893
+
+  🔧 Top Tools
+  ────────────────────────────────────────────────────────
+  Tool                            Calls        %
+  terminal                        1,913    44.7%
+  patch                             385     9.0%
+  browser_click                     252     5.9%
+  write_file                        239     5.6%
+  read_file                         233     5.4%
+  browser_console                   211     4.9%
+  browser_navigate                  199     4.6%
+  browser_snapshot                  157     3.7%
+  execute_code                      146     3.4%
+  search_files                      112     2.6%
+  browser_type                      106     2.5%
+  process                            66     1.5%
+  session_search                     52     1.2%
+  todo                               51     1.2%
+  browser_vision                     49     1.1%
+  ... and 8 more tools
+
+  🧠 Top Skills
+  ────────────────────────────────────────────────────────
+  Skill                          Loads   Edits   Last used
+  hermes-agent                      13       0      May 20
+  polymarket                         3       0      May 22
+  github-auth                        2       0      May 19
+  google-workspace                   2       0      May 19
+  nft-mint-automation                1       0      May 22
+  vps-web-app-deployment             1       0      May 20
+  writing-plans                      1       0      May 19
+  Distinct skills: 7  Loads: 23  Edits: 0
+
+  📅 Activity Patterns
+  ────────────────────────────────────────────────────────
+  Mon  █████           11
+  Tue  ██████          13
+  Wed  ███████████████ 31
+  Thu  ████████        18
+  Fri  █████████████   28
+  Sat                  0
+  Sun                  0
+
+  Peak hours: 5PM (12), 6PM (12), 8AM (10), 1PM (9), 10AM (8)
+  Active days: 5
+  Best streak: 5 consecutive days
+
+  🏆 Notable Sessions
+  ────────────────────────────────────────────────────────
+  Longest session      17h 53m            (May 18, 20260518_191943_)
+  Most messages        386 msgs           (May 20, 20260520_101805_)
+  Most tokens          2,003,254 tokens   (May 20, 20260520_112041_)
+  Most tool calls      190 calls          (May 20, 20260520_101805_)
+
+
+## 4) Session Store Stats
+Total sessions: 101
+Total messages: 10165
+  cli: 16 sessions
+  telegram: 72 sessions
+Database size: 75.1 MB
